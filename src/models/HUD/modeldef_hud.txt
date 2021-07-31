@@ -1,0 +1,93 @@
+// --------------- HUD --------------- //
+
+Model Pistol
+{
+   Path "models/HUD/Pistol"
+   Model 0 "Pistol.md2"
+   Skin 0 "hud_pistol.pcx"
+   Model 1 "Pistol-Hand.md2"
+   Skin 1 "hud_pistol_hand.pcx"
+   Scale 1.0 1.0 1.0
+   ZOffset -30
+   FrameIndex PISG A 0 0	FrameIndex PISG A 1 0
+   FrameIndex PISG B 0 1	FrameIndex PISG B 1 1
+   FrameIndex PISG C 0 2	FrameIndex PISG C 1 2
+   FrameIndex PISG D 0 3	FrameIndex PISG D 1 3
+   FrameIndex PISG E 0 4	FrameIndex PISG E 1 4
+}
+Model Pistol
+{
+   Path "models/HUD/Pistol"
+   Model 0 "Pistol-MF.MD2"
+   Skin 0 "hud_pistol_MF0.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -30
+   FrameIndex PISF A 0 0
+}
+
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun.md2"
+   Skin 0 "hud_shotgun.png"
+   Scale -1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTG A 0 0
+   FrameIndex SHTG B 0 2
+   FrameIndex SHTG C 0 3
+   FrameIndex SHTG D 0 4
+}
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun_MF.md2"
+   Skin 0 "hud_shotgun_MF0.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTF A 0 0
+}
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun_MF.md2"
+   Skin 0 "hud_shotgun_MF1.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTF B 0 0
+}
+
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_barrel.md2"
+   Skin 0 "HUD_SSG.pcx"
+   Model 1 "hud_ssg_hold.md2"
+   Skin 1 "HUD_SSG.pcx"
+   Model 2 "hud_ssg_stock.md2"
+   Skin 2 "HUD_SSG.pcx"
+   Model 3 "hud_ssg_shell.md2"
+   Skin 3 "HUD_SSG.pcx"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 A 0 0	FrameIndex SHT2 A 1 0	FrameIndex SHT2 A 2 0	FrameIndex SHT2 A 3 0
+   FrameIndex SHT2 B 0 1	FrameIndex SHT2 B 1 1	FrameIndex SHT2 B 2 1	FrameIndex SHT2 B 3 1
+   FrameIndex SHT2 C 0 2	FrameIndex SHT2 C 1 2	FrameIndex SHT2 C 2 2	FrameIndex SHT2 C 3 2
+   FrameIndex SHT2 D 0 3	FrameIndex SHT2 D 1 3	FrameIndex SHT2 D 2 3	FrameIndex SHT2 D 3 3
+   FrameIndex SHT2 E 0 4	FrameIndex SHT2 E 1 4	FrameIndex SHT2 E 2 4	FrameIndex SHT2 E 3 4
+   FrameIndex SHT2 F 0 5	FrameIndex SHT2 F 1 5	FrameIndex SHT2 F 2 5	FrameIndex SHT2 F 3 5
+   FrameIndex SHT2 G 0 6	FrameIndex SHT2 G 1 6	FrameIndex SHT2 G 2 6	FrameIndex SHT2 G 3 6
+   FrameIndex SHT2 H 0 7	FrameIndex SHT2 H 1 7	FrameIndex SHT2 H 2 7	FrameIndex SHT2 H 3 7
+}
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_put.md2"
+   Skin 0 "HUD_SSG.pcx"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 D 0 0
+   FrameIndex SHT2 E 0 1
+   FrameIndex SHT2 F 0 2
+   FrameIndex SHT2 G 0 3
+   FrameIndex SHT2 H 0 4
+}

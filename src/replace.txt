@@ -1,0 +1,218 @@
+ACTOR ArmorBonus2 : ArmorBonus replaces ArmorBonus
+{
+  Inventory.Icon "arm1hud"
+}
+
+ACTOR GreenArmor2 : GreenArmor replaces GreenArmor
+{
+  Inventory.Icon "arm1hud"
+}
+
+ACTOR BlueArmor2 : BlueArmor replaces BlueArmor
+{
+  Inventory.Icon "arm2hud"
+}
+
+ACTOR Megasphere2 : CustomInventory replaces Megasphere
+{
+  +COUNTITEM
+  +INVENTORY.ALWAYSPICKUP
+  Inventory.PickupMessage "MegaSphere!"
+  Inventory.PickupSound "misc/p_pkup"
+  States
+  {
+  Spawn:
+    MEGA ABCD 6 Bright
+    Loop
+  Pickup:
+    TNT1 A 0 A_GiveInventory("BlueArmorForMegasphere2", 1)
+    TNT1 A 0 A_GiveInventory("MegasphereHealth", 1)
+    Stop
+  }
+}
+
+ACTOR BlueArmorForMegasphere2 : BlueArmor2 replaces BlueArmorForMegasphere
+{
+	Armor.SavePercent 50
+	Armor.SaveAmount 200
+}
+
+ACTOR RedTorch2 : RedTorch replaces RedTorch
+{
+	States
+	{
+		Spawn:
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 1 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			loop
+	}
+}
+ACTOR BlueTorch2 : BlueTorch replaces BlueTorch
+{
+	States
+	{
+		Spawn:
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 1 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			loop
+	}
+}
+ACTOR GreenTorch2 : GreenTorch replaces GreenTorch
+{
+	States
+	{
+		Spawn:
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			TRCH A 1 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),50,0,0,Random(2,8))
+			loop
+	}
+}
+ACTOR RedTorchFlame
+{
+	Radius 1
+	Height 1
+	+NOGRAVITY
+	States
+	{
+		Spawn:
+			TRD1 A 2 Bright
+			TRD2 A 2 Bright
+			TRD3 A 2 Bright
+			TRD4 A 2 Bright
+			stop
+	}
+}
+ACTOR BlueTorchFlame : RedTorchFlame
+{
+	States
+	{
+		Spawn:
+			TBL1 A 2 Bright
+			TBL2 A 2 Bright
+			TBL3 A 2 Bright
+			TBL4 A 2 Bright
+			stop
+	}
+}
+ACTOR GreenTorchFlame : RedTorchFlame
+{
+	States
+	{
+		Spawn:
+			TGR1 A 2 Bright
+			TGR2 A 2 Bright
+			TGR3 A 2 Bright
+			TGR4 A 2 Bright
+			stop
+	}
+}
+
+ACTOR EvilEye2 : EvilEye replaces EvilEye
+{
+	States
+	{
+		Spawn:
+			CEYE ABCDEFGH 4 Bright
+			loop
+	}
+}
+
+ACTOR ShortRedTorch2 : ShortRedTorch replaces ShortRedTorch
+{
+	States
+	{
+		Spawn:
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 1 Bright A_SpawnItemEx("RedTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			loop
+	}
+}
+
+ACTOR ShortBlueTorch2 : ShortBlueTorch replaces ShortBlueTorch
+{
+	States
+	{
+		Spawn:
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 1 Bright A_SpawnItemEx("BlueTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			loop
+	}
+}
+
+ACTOR ShortGreenTorch2 : ShortGreenTorch replaces ShortGreenTorch
+{
+	States
+	{
+		Spawn:
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 0 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			SMTC A 1 Bright A_SpawnItemEx("GreenTorchFlame",Random(-4,4),Random(-4,4),25,0,0,Random(1,6))
+			loop
+	}
+}
+
+ACTOR BurningBarrel2 : BurningBarrel replaces BurningBarrel
+{
+	States
+	{
+		Spawn:
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 0 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			FCN2 A 1 Bright A_SpawnItemEx("BurningBarrelFlame",Random(-10,10),Random(-10,10),25,0,0,Random(1,5))
+			loop
+	}
+}
+
+Actor BurningBarrelFlame : RedTorchFlame
+{
+	States
+	{
+		Spawn:
+			BBFL ABCD 2 Bright
+			stop
+	}
+}

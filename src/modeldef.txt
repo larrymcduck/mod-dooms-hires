@@ -1,0 +1,1190 @@
+// --------------- Ammo --------------- //
+Model ClipBox
+{
+   Path "models/Ammo/A-AmmoBox"
+   Model 0 "AmmoBox.md2"
+   Skin 0 "Bigammo.pcx"
+   Scale 1.0 1.0 1.0
+   FrameIndex AMMO A 0 0
+}
+
+Model Clip
+{
+   Path "models/Ammo/A-Clip"
+   Model 0 "Clip.md2"
+   Skin 0 "AmmoClip.pcx"
+   Scale 1.0 1.0 1.0
+   FrameIndex CLIP A 0 0
+}
+
+Model Backpack
+{
+   Path "models/Ammo/A-Backpack"
+   Model 0 "Backpack.dmd"
+   Skin 0 "Backpack.pcx"
+   Scale 0.5 0.5 0.5
+   Rotating
+   FrameIndex BPAK A 0 0
+}
+
+Model Cell
+{
+   Path "models/Ammo/A-Cell"
+   Model 0 "Cell.md2"
+   Skin 0 "Cell.png"
+   Model 1 "Cell-Glow.md2"
+   Skin 1 "Cell.png"
+   Scale 1.0 1.0 1.0
+   FrameIndex CELL A 0 0
+}
+
+Model CellPack
+{
+   Path "models/Ammo/A-CellLarge"
+   Model 0 "CellLarge.md2"
+   Skin 0 "Bigcells.pcx"
+   Scale 1.0 1.0 1.0
+   FrameIndex CELP A 0 0
+}
+
+Model RocketAmmo
+{
+   Path "models/Ammo/A-Rocket"
+   Model 0 "Rocket.dmd"
+   Skin 0 "Rocket.pcx"
+   Scale 0.7 0.7 0.7
+   FrameIndex ROCK A 0 0
+}
+
+Model RocketBox
+{
+   Path "models/Ammo/A-RocketBox"
+   Model 0 "RocketBox.MD2"
+   Skin 0 "RocketBox.png"
+   Scale 1.0 1.0 1.0
+   FrameIndex BROK A 0 0
+}
+
+Model ShellBox
+{
+   Path "models/Ammo/A-ShellBox"
+   Model 0 "ShellBox.MD2"
+   Skin 0 "ShellBox.png"
+   Model 1 "ShellBox_Shells.MD2"
+   Skin 1 "ShellBox_Shells.png"
+   Scale 1.0 1.0 1.0
+   FrameIndex SBOX A 0 0
+}
+
+Model Shell
+{
+   Path "models/Ammo/A-Shells"
+   Model 0 "Shells.MD2"
+   Skin 0 "Shells.png"
+   Scale 1.2 1.2 1.2
+   FrameIndex SHEL A 0 0
+}
+
+// --------------- Weapons --------------- //
+
+Model BFG9000
+{
+   Path "models/Weapons/W-BFG"
+   Model 0 "W-BFG.dmd"
+   Skin 0 "Gbfg.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex BFUG A 0 0
+}
+
+Model Chaingun
+{
+   Path "models/Weapons/W-Chaingun"
+   Model 0 "W-Chaingun.dmd"
+   Skin 0 "GChain.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex MGUN A 0 0
+}
+
+Model Chainsaw
+{
+   Path "models/Weapons/W-Chainsaw"
+   Model 0 "W-Chainsaw.dmd"
+   Skin 0 "Gsaw.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex CSAW A 0 0
+}
+
+Model PlasmaRifle
+{
+   Path "models/Weapons/W-PlasmaRifle"
+   Model 0 "W-PlasmaRifle.dmd"
+   Skin 0 "Gplasma.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex PLAS A 0 0
+}
+
+Model RocketLauncher
+{
+   Path "models/Weapons/W-RocketLauncher"
+   Model 0 "W-RocketLauncher.dmd"
+   Skin 0 "Grocketlnchr.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex LAUN A 0 0
+}
+
+Model Shotgun
+{
+   Path "models/Weapons/W-Shotgun"
+   Model 0 "W-Shotgun.dmd"
+   Skin 0 "Gshotgun.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex SHOT A 0 0
+}
+
+Model SuperShotgun
+{
+   Path "models/Weapons/W-SuperShotgun"
+   Model 0 "W-SuperShotgun.md2"
+   Skin 0 "shoyt.pcx"
+   Scale 0.1 0.1 0.1
+   Rotating
+   FrameIndex SGN2 A 0 0
+}
+
+// --------------- Pickups --------------- //
+
+Model GreenArmor2
+{
+   Path "models/Pickups/H-Armor"
+   Model 0 "Armor.dmd"
+   Skin 0 "Armor-Green.png"
+   Scale 1.3 1.3 1.3
+   Rotating
+   FrameIndex ARM1 A 0 0
+   FrameIndex ARM1 B 0 0
+}
+
+Model BlueArmor2
+{
+   Path "models/Pickups/H-Armor"
+   Model 0 "Armor.dmd"
+   Skin 0 "Armor-Blue.png"
+   Scale 1.3 1.3 1.3
+   Rotating
+   FrameIndex ARM2 A 0 0
+   FrameIndex ARM2 B 0 0
+}
+
+Model Berserk
+{
+   Path "models/Pickups/P-BerzerkPack"
+   Model 0 "Berzerk.md2"
+   Skin 0 "Berzerk.pcx"
+   Scale 3.0 3.0 3.0
+   Rotating
+   FrameIndex PSTR A 0 0
+}
+
+Model Allmap
+{
+   Path "models/Pickups/E-ComputerMap"
+   Model 0 "ComputerMap.md2"
+   Skin 0 "ComputerMap.png"
+   Model 1 "ComputerMap-Screen.md2"
+   Skin 1 "ComputerMap-Screen0.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex PMAP A 0 0	FrameIndex PMAP A 1 0	FrameIndex PMAP A 2 0
+}
+Model Allmap
+{
+   Path "models/Pickups/E-ComputerMap"
+   Model 0 "ComputerMap.md2"
+   Skin 0 "ComputerMap.png"
+   Model 1 "ComputerMap-Screen.md2"
+   Skin 1 "ComputerMap-Screen1.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex PMAP B 0 0	FrameIndex PMAP B 1 0	FrameIndex PMAP B 2 0
+}
+Model Allmap
+{
+   Path "models/Pickups/E-ComputerMap"
+   Model 0 "ComputerMap.md2"
+   Skin 0 "ComputerMap.png"
+   Model 1 "ComputerMap-Screen.md2"
+   Skin 1 "ComputerMap-Screen2.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex PMAP C 0 0	FrameIndex PMAP C 1 0	FrameIndex PMAP C 2 0
+}
+Model Allmap
+{
+   Path "models/Pickups/E-ComputerMap"
+   Model 0 "ComputerMap.md2"
+   Skin 0 "ComputerMap.png"
+   Model 1 "ComputerMap-Screen.md2"
+   Skin 1 "ComputerMap-Screen3.pcx"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex PMAP D 0 0	FrameIndex PMAP D 1 0	FrameIndex PMAP D 2 0
+}
+
+Model HealthBonus
+{
+   Path "models/Pickups/H-HealthPotion"
+   Model 0 "Bottle1.md2"
+   Skin 0 "Bottle1.png"
+   Model 1 "Bottle2.md2"
+   Skin 1 "Bottle2.png"
+   Model 2 "Bottle3.md2"
+   Skin 2 "Bottle3.png"
+   Scale 2.0 2.0 2.0
+   Rotating
+   FrameIndex BON1 A 0 0	FrameIndex BON1 A 1 0	FrameIndex BON1 A 2 0
+   FrameIndex BON1 B 0 0	FrameIndex BON1 B 1 0	FrameIndex BON1 B 2 0
+   FrameIndex BON1 C 0 0	FrameIndex BON1 C 1 0	FrameIndex BON1 C 2 0
+   FrameIndex BON1 D 0 0	FrameIndex BON1 D 1 0	FrameIndex BON1 D 2 0
+}
+
+Model BlurSphere
+{
+   Path "models/Pickups/P-Invisibility"
+   Model 0 "Invisibility.md2"
+   Skin 0 "Invisibility.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 25
+   Scale 2.0 2.0 2.0
+   FrameIndex PINS A 0 0
+   FrameIndex PINS B 0 1
+   FrameIndex PINS C 0 2
+   FrameIndex PINS D 0 3
+}
+
+Model InvulnerabilitySphere
+{
+   Path "models/Pickups/P-Invulnerability"
+   Model 0 "Invulnerability.MD2"
+   Skin 0 "UNV0.png"
+   Model 1 "Invulnerability1.MD2"
+   Skin 1 "UNV1.png"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex PINV A 0 0	FrameIndex PINV A 1 0
+   FrameIndex PINV B 0 1	FrameIndex PINV B 1 0
+   FrameIndex PINV C 0 2	FrameIndex PINV C 1 0
+   FrameIndex PINV D 0 3	FrameIndex PINV D 1 0
+}
+
+Model Infrared
+{
+   Path "models/Pickups/E-LightGoggles"
+   Model 0 "LightGoggles.md2"
+   Skin 0 "LightGoggles.pcx"
+   Scale 0.5 0.5 0.5
+   Rotating
+   FrameIndex PVIS A 0 0
+   FrameIndex PVIS B 0 0
+}
+
+Model Medikit
+{
+   Path "models/Pickups/H-Medikit"
+   Model 0 "Medikit.md2"
+   Skin 0 "Medikit.pcx"
+   Scale 3.0 3.0 3.0
+   FrameIndex MEDI A 0 0
+}
+
+Model Megasphere2
+{
+   Path "models/Pickups/P-Megasphere"
+   Model 0 "Megasphere.md2"
+   Skin 0 "Megasphere_0.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex MEGA A 0 0
+}
+Model Megasphere2
+{
+   Path "models/Pickups/P-Megasphere"
+   Model 0 "Megasphere.md2"
+   Skin 0 "Megasphere_1.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex MEGA B 0 1
+}
+Model Megasphere2
+{
+   Path "models/Pickups/P-Megasphere"
+   Model 0 "Megasphere.md2"
+   Skin 0 "Megasphere_2.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex MEGA C 0 2
+}
+Model Megasphere2
+{
+   Path "models/Pickups/P-Megasphere"
+   Model 0 "Megasphere.md2"
+   Skin 0 "Megasphere_3.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex MEGA D 0 3
+}
+
+Model Soulsphere
+{
+   Path "models/Pickups/P-SoulSphere"
+   Model 0 "SoulSphere-face.md2"
+   Skin 0 "Soul0.pcx"
+   Model 1 "SoulSphere-back.md2"
+   Skin 1 "Soul3.pcx"
+   ALIGNANGLE
+   ALIGNPITCH
+   ZOffset 30
+   Scale 2.2 2.2 2.2
+   FrameIndex SOUL A 0 0
+   FrameIndex SOUL A 1 0
+   FrameIndex SOUL B 0 1
+   FrameIndex SOUL B 1 0
+   FrameIndex SOUL C 0 2
+   FrameIndex SOUL C 1 0
+   FrameIndex SOUL D 0 3
+   FrameIndex SOUL D 1 0
+}
+
+Model RadSuit
+{
+   Path "models/Pickups/E-RadiationSuit"
+   Model 0 "RadiationSuit.md2"
+   Skin 0 "Radsuit.pcx"
+   Rotating
+   Scale 1.0 1.0 1.0
+   FrameIndex SUIT A 0 0
+}
+
+Model ArmorBonus2
+{
+   Path "models/Pickups/H-SpiritualArmor"
+   Model 0 "SpiritualArmor.dmd"
+   Skin 0 "SpiritualArmor.png"
+   Rotating
+   Scale 2.0 2.0 2.0
+   FrameIndex BON2 A 0 0
+   FrameIndex BON2 B 0 0
+   FrameIndex BON2 C 0 0
+   FrameIndex BON2 D 0 0
+}
+
+Model Stimpack
+{
+   Path "models/Pickups/H-Stimpack"
+   Model 0 "Stimpack.md2"
+   Skin 0 "Stimpack.pcx"
+   Scale 3.0 3.0 3.0
+   FrameIndex STIM A 0 0
+}
+
+// --------------- Keys --------------- //
+
+Model BlueCard
+{
+   Path "models/Keys/K-KeyCard"
+   Model 0 "KeyCard.md2"
+   Skin 0 "KeyCard-Blue.png"
+   Scale 1.0 1.0 1.0
+   ZOffset 1
+   Rotating
+   FrameIndex BKEY A 0 0
+   FrameIndex BKEY B 0 0
+}
+
+Model RedCard
+{
+   Path "models/Keys/K-KeyCard"
+   Model 0 "KeyCard.md2"
+   Skin 0 "KeyCard-Red.png"
+   Scale 1.0 1.0 1.0
+   ZOffset 1
+   Rotating
+   FrameIndex RKEY A 0 0
+   FrameIndex RKEY B 0 0
+}
+
+Model YellowCard
+{
+   Path "models/Keys/K-KeyCard"
+   Model 0 "KeyCard.md2"
+   Skin 0 "KeyCard-Yellow.png"
+   Scale 1.0 1.0 1.0
+   ZOffset 1
+   Rotating
+   FrameIndex YKEY A 0 0
+   FrameIndex YKEY B 0 0
+}
+
+Model BlueSkull
+{
+   Path "models/Keys/K-SkullKeys"
+   Model 0 "SkullKey.dmd"
+   Skin 0 "SkullKey_Blue.png"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex BSKU A 0 0
+   FrameIndex BSKU B 0 0
+}
+
+Model RedSkull
+{
+   Path "models/Keys/K-SkullKeys"
+   Model 0 "SkullKey.dmd"
+   Skin 0 "SkullKey_Red.png"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex RSKU A 0 0
+   FrameIndex RSKU B 0 0
+}
+
+Model YellowSkull
+{
+   Path "models/Keys/K-SkullKeys"
+   Model 0 "SkullKey.dmd"
+   Skin 0 "SkullKey_Yellow.png"
+   Scale 1.0 1.0 1.0
+   Rotating
+   FrameIndex YSKU A 0 0
+   FrameIndex YSKU B 0 0
+}
+
+// --------------- Decor --------------- //
+
+Model ExplosiveBarrel
+{
+   Path "models/Decor/T-Barrel"
+   Model 0 "Barrel.md2"
+   Skin 0 "Barrel0.png"
+   Model 1 "Barrel-Slime.MD2"
+   Skin 1 "Slime0.pcx"
+   Scale 1.25 1.25 1.25
+   FrameIndex BAR1 A 0 0	FrameIndex BAR1 A 1 0
+   FrameIndex BAR1 B 0 0	FrameIndex BAR1 B 1 2
+   FrameIndex BEXP A 0 1	FrameIndex BEXP A 0 0
+   FrameIndex BEXP B 0 2	FrameIndex BEXP A 0 0
+}
+Model ExplosiveBarrel
+{
+   Path "models/Decor/T-Barrel/Explode"
+   Model 0 "Explosion.md2"
+   Skin 0 "0.pcx"
+   Scale 1.25 1.25 1.25
+   ZOffset 20
+   FrameIndex BEXP C 0 0
+}
+Model ExplosiveBarrel
+{
+   Path "models/Decor/T-Barrel/Explode"
+   Model 0 "Explosion.md2"
+   Skin 0 "8.png"
+   Scale 1.25 1.25 1.25
+   ZOffset 20
+   FrameIndex BEXP D 0 4
+}
+Model ExplosiveBarrel
+{
+   Path "models/Decor/T-Barrel/Explode"
+   Model 0 "Explosion.md2"
+   Skin 0 "F.png"
+   Scale 1.25 1.25 1.25
+   ZOffset 20
+   FrameIndex BEXP E 0 8
+}
+Model ExplosiveBarrel
+{
+   Path "models/Decor/T-Barrel/Explode"
+   Model 0 "Explosion.md2"
+   Skin 0 "F.png"
+   Scale 1.25 1.25 1.25
+   ZOffset 20
+   FrameIndex BEXP F 0 8
+}
+
+Model Column
+{
+   Path "models/Decor/L-SmallLamp"
+   Model 0 "Lamp.md2"
+   Skin 0 "Lamp.pcx"
+   Scale 0.70 0.70 0.70
+   ZOffset 0
+   FrameIndex COLU A 0 0
+}
+
+Model TechPillar
+{
+   Path "models/Decor/T-TechPillar"
+   Model 0 "Techpillar.md2"
+   Skin 0 "Tekpillar.pcx"
+   Scale 1 1 1.25
+   ZOffset 0
+   FrameIndex ELEC A 0 0
+}
+
+Model Candelabra
+{
+   Path "models/Decor/L-Candelabra"
+   Model 0 "Candelabra.md2"
+   Skin 0 "Candelabra.pcx"
+   Scale 1 1 1.25
+   ZOffset 0
+   FrameIndex CBRA A 0 0
+}
+
+Model Gibs
+{
+   Path "models/Decor/B-SpinalColumn"
+   Model 0 "SpinalColumn.md2"
+   Skin 0 "SpinalColumn.pcx"
+   Scale 2 2 2
+   ZOffset 0
+   FrameIndex POL5 A 0 0
+}
+
+Model RedTorch
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.55
+   ZOffset 0
+   FrameIndex TRED A 0 0
+   FrameIndex TRED B 0 0
+   FrameIndex TRED C 0 0
+   FrameIndex TRED D 0 0
+}
+
+Model RedTorch2
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.55
+   ZOffset 0
+   FrameIndex TRCH A 0 0
+}
+
+Model BlueTorch
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.6
+   ZOffset 0
+   FrameIndex TBLU A 0 0
+   FrameIndex TBLU B 0 0
+   FrameIndex TBLU C 0 0
+   FrameIndex TBLU D 0 0
+}
+
+Model BlueTorch2
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.55
+   ZOffset 0
+   FrameIndex TRCH A 0 0
+}
+
+Model GreenTorch
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.6
+   ZOffset 0
+   FrameIndex TGRN A 0 0
+   FrameIndex TGRN B 0 0
+   FrameIndex TGRN C 0 0
+   FrameIndex TGRN D 0 0
+}
+
+Model GreenTorch2
+{
+   Path "models/Decor/L-TallTorch"
+   Model 0 "TallTorch.md2"
+   Scale 0.5 0.5 0.55
+   ZOffset 0
+   FrameIndex TRCH A 0 0
+}
+
+Model Candlestick
+{
+   Path "models/Decor/L-Candle"
+   Model 0 "Candle.md2"
+   Skin 0 "Candle.pcx"
+   Scale 0.75 0.75 0.75
+   ZOffset 0
+   FrameIndex CAND A 0 0
+}
+
+Model BigTree
+{
+   Path "models/Decor/N-BigTree"
+   Model 0 "Bigtree.md2"
+   Skin 0 "Bigtree.png"
+   Scale 1 1.25 2
+   ZOffset 0
+   FrameIndex TRE2 A 0 0
+}
+
+Model TorchTree
+{
+   Path "models/Decor/N-Tree"
+   Model 0 "Tree.md2"
+   Skin 0 "Tree.pcx"
+   Scale 0.5 0.5 0.5
+   ZOffset 0
+   FrameIndex TRE1 A 0 0
+}
+
+Model TechLamp2
+{
+   Path "models/Decor/L-MediumLamp"
+   Model 0 "MediumLamp.md2"
+   Skin 0 "MediumLamp.pcx"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex TLP2 A 0 0
+   FrameIndex TLP2 B 0 0
+   FrameIndex TLP2 C 0 0
+   FrameIndex TLP2 D 0 0
+}
+
+Model DeadStick
+{
+   Path "models/Decor/B-ImpaledTwitcher"
+   Model 0 "ImpaledTwitcher-Dead.md2"
+   Model 1 "ImpaledTwitcher-Pole.md2"
+   Skin 0 "ImpaledTwitcher.png"
+   Skin 1 "ImpaledTwitcher.png"
+   Scale 1.2 1.2 1.2
+   ZOffset 0
+   FrameIndex POL1 A 0 0	FrameIndex POL1 A 1 0
+}
+
+Model LiveStick
+{
+   Path "models/Decor/B-ImpaledTwitcher"
+   Model 0 "ImpaledTwitcher.md2"
+   Model 1 "ImpaledTwitcher-Pole.md2"
+   Skin 0 "ImpaledTwitcher.png"
+   Skin 1 "ImpaledTwitcher.png"
+   Scale 1.2 1.2 1.2
+   ZOffset 0
+   FrameIndex POL6 A 0 0	FrameIndex POL6 A 1 0
+   FrameIndex POL6 B 0 1	FrameIndex POL6 B 1 0
+}
+
+Model HeadsOnAStick
+{
+   Path "models/Decor/B-HeadsOnStick"
+   Model 0 "HeadsOnStick.md2"
+   Skin 0 "HeadsOnStick.pcx"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex POL2 A 0 0
+}
+
+Model HeadCandles
+{
+   Path "models/Decor/G-HeadCandles"
+   Model 0 "HeadCandles.md2"
+   Skin 0 "HeadCandles.pcx"
+   Scale 1.9 1.9 1.9
+   ZOffset 0
+   FrameIndex POL3 A 0 0
+   FrameIndex POL3 B 0 1
+}
+
+Model HeadOnAStick
+{
+   Path "models/Decor/B-HeadOnStick"
+   Model 0 "HeadOnAStick.md2"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex POL4 A 0 0
+}
+
+Model TallGreenColumn
+{
+   Path "models/Decor/G-StonePillar"
+   Model 0 "StonePillar.md2"
+   Skin 0 "GreenStonePillar.pcx"
+   Scale 1 1 1.6
+   ZOffset 0
+   FrameIndex COL1 A 0 0
+}
+
+Model ShortGreenColumn
+{
+   Path "models/Decor/G-StonePillar"
+   Model 0 "StonePillar.md2"
+   Skin 0 "GreenStonePillar.pcx"
+   Scale 1 1 1.2
+   ZOffset 0
+   FrameIndex COL2 A 0 0
+}
+
+Model TallRedColumn
+{
+   Path "models/Decor/G-StonePillar"
+   Model 0 "StonePillar.md2"
+   Skin 0 "RedStonePillar.pcx"
+   Scale 1 1 1.6
+   ZOffset 0
+   FrameIndex COL3 A 0 0
+}
+
+Model ShortRedColumn
+{
+   Path "models/Decor/G-StonePillar"
+   Model 0 "StonePillar.md2"
+   Skin 0 "RedStonePillar.pcx"
+   Scale 1 1 1.2
+   ZOffset 0
+   FrameIndex COL4 A 0 0
+}
+
+Model HeartColumn
+{
+   Path "models/Decor/G-HeartPillar"
+   Model 0 "HeartPillar.md2"
+   Skin 0 "HeartPillar.pcx"
+   Scale 0.4 0.4 0.4
+   ZOffset 0
+   FrameIndex COL5 A 0 0
+   FrameIndex COL5 B 0 1
+}
+
+Model SkullColumn
+{
+   Path "models/Decor/G-SkullPillar"
+   Model 0 "SkullPillar.md2"
+   Skin 0 "SkullPillar.pcx"
+   Scale 0.4 0.4 0.4
+   ZOffset 0
+   FrameIndex COL6 A 0 0
+}
+
+Model FloatingSkull
+{
+   Path "models/Decor/M-FloatinSkulls"
+   Model 0 "FloatSkulls.md2"
+   Skin 0 "FloatSkulls.pcx"
+   Scale 1.3 1.3 1.3
+   ZOffset 0
+   FrameIndex FSKU A 0 0
+   FrameIndex FSKU B 0 1
+   FrameIndex FSKU C 0 2
+}
+
+Model EvilEye2
+{
+   Path "models/Decor/M-EvilEye"
+   Model 0 "EvilEye.md2"
+   Skin 0 "EvilEye.pcx"
+   Scale 2.5 2.5 2.5
+   ZOffset 0
+   FrameIndex CEYE A 0 0
+   FrameIndex CEYE B 0 1
+   FrameIndex CEYE C 0 2
+   FrameIndex CEYE D 0 3
+   FrameIndex CEYE E 0 4
+   FrameIndex CEYE F 0 5
+   FrameIndex CEYE G 0 6
+   FrameIndex CEYE H 0 7
+}
+
+Model Stalagtite
+{
+   Path "models/Decor/N-Stalagtite"
+   Model 0 "stalagtite.md2"
+   Skin 0 "bigtree.png"
+   Scale 1 1 1.4
+   ZOffset 0
+   FrameIndex SMIT A 0 0
+}
+
+Model Stalagmite
+{
+   Path "models/Decor/N-Stalag"
+   Model 0 "stalag.md2"
+   Skin 0 "stalagmite.pcx"
+   Scale 1 1 1.5
+   ZOffset 0
+   FrameIndex SMT2 A 0 0
+}
+
+Model BloodyTwitch
+{
+   Path "models/Decor/B-HangTorso"
+   Model 0 "HangTorso.md2"
+   Skin 0 "HangTorso.pcx"
+   Scale 1 1 1.3
+   ZOffset 0
+   FrameIndex GOR1 A 0 5
+   FrameIndex GOR1 B 0 0
+   FrameIndex GOR1 C 0 3
+}
+Model NonsolidTwitch
+{
+   Path "models/Decor/B-HangTorso"
+   Model 0 "HangTorso.md2"
+   Skin 0 "HangTorso.pcx"
+   Scale 1 1 1.3
+   ZOffset 0
+   FrameIndex GOR1 A 0 5
+   FrameIndex GOR1 B 0 0
+   FrameIndex GOR1 C 0 3
+}
+
+Model Meat2
+{
+   Path "models/Decor/B-HangByFeet"
+   Model 0 "HangByFeet.md2"
+   Skin 0 "HangByFeet.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex GOR2 A 0 0
+}
+
+Model Meat3
+{
+   Path "models/Decor/B-HangNoLeg"
+   Model 0 "HangNoLeg.md2"
+   Skin 0 "HangNoLeg.pcx"
+   Scale 1 1 1.2
+   ZOffset 10
+   FrameIndex GOR3 A 0 0
+}
+
+Model Meat4
+{
+   Path "models/Decor/B-HangingLegs"
+   Model 0 "HangingLegs.md2"
+   Skin 0 "HangingLegs.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex GOR4 A 0 0
+}
+
+Model Meat5
+{
+   Path "models/Decor/B-HangingLeg"
+   Model 0 "HangingLeg.md2"
+   Skin 0 "HangingLeg.pcx"
+   Scale 1 1 1
+   ZOffset 16
+   FrameIndex GOR5 A 0 0
+}
+
+Model ShortRedTorch2
+{
+   Path "models/Decor/L-FireStick"
+   Model 0 "FireStick.md2"
+   Skin 0 "FireStick.pcx"
+   Scale 0.5 0.5 0.4
+   ZOffset 0
+   FrameIndex SMTC A 0 0
+}
+
+Model ShortBlueTorch2
+{
+   Path "models/Decor/L-FireStick"
+   Model 0 "FireStick.md2"
+   Skin 0 "FireStick.pcx"
+   Scale 0.5 0.5 0.4
+   ZOffset 0
+   FrameIndex SMTC A 0 0
+}
+
+Model ShortGreenTorch2
+{
+   Path "models/Decor/L-FireStick"
+   Model 0 "FireStick.md2"
+   Skin 0 "FireStick.pcx"
+   Scale 0.5 0.5 0.4
+   ZOffset 0
+   FrameIndex SMTC A 0 0
+}
+
+Model BurningBarrel2
+{
+   Path "models/Decor/T-FireCan"
+   Model 0 "FireCan.md2"
+   Skin 0 "FireCan.png"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex FCN2 A 0 0
+}
+
+Model HangNoGuts
+{
+   Path "models/Decor/B-HangNoGuts"
+   Model 0 "HangNoGuts.md2"
+   Skin 0 "HangNoGuts.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB1 A 0 0
+}
+
+Model HangBNoBrain
+{
+   Path "models/Decor/B-HangNoBrain"
+   Model 0 "HangNoBrain.md2"
+   Skin 0 "HangNoBrain.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB2 A 0 0
+}
+
+Model HangTLookingDown
+{
+   Path "models/Decor/B-HangtLookDN"
+   Model 0 "HangtLookDN.md2"
+   Skin 0 "HangtLookDN.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB3 A 0 0
+}
+
+Model HangTSkull
+{
+   Path "models/Decor/B-HangtSkull"
+   Model 0 "HangtSkull.md2"
+   Skin 0 "HangtSkull.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB4 A 0 0
+}
+
+Model HangTLookingUp
+{
+   Path "models/Decor/B-HangtLookUP"
+   Model 0 "HangtLookUP.md2"
+   Skin 0 "HangtLookUP.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB5 A 0 0
+}
+
+Model HangTNoBrain
+{
+   Path "models/Decor/B-HangtNoBrain"
+   Model 0 "HangtNoBrain.md2"
+   Skin 0 "HangtNoBrain.pcx"
+   Scale 1 1 1
+   ZOffset 10
+   FrameIndex HDB6 A 0 0
+}
+
+Model ColonGibs
+{
+   Path "models/Decor/B-ColonGibs"
+   Model 0 "ColonGibs.md2"
+   Skin 0 "Gibs.pcx"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex POB1 A 0 0
+}
+
+Model SmallBloodPool
+{
+   Path "models/Decor/B-BloodPool"
+   Model 0 "BloodPool.md2"
+   Skin 0 "BloodPool.tga"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex POB2 A 0 0
+}
+
+Model BrainStem
+{
+   Path "models/Decor/B-BrainStem"
+   Model 0 "BrainStem.md2"
+   Skin 0 "BrainStem.pcx"
+   Model 1 "BloodPool.md2"
+   Skin 1 "BloodPool.tga"
+   Scale 1 1 1
+   ZOffset 0
+   FrameIndex BRS1 A 0 0	FrameIndex BRS1 A 1 0
+}
+
+// --------------- Monsters --------------- //
+
+Model CommanderKeen
+{
+   Path "models/Monsters/Keen"
+   Model 0 "Keen.md2"
+   Skin 0 "Keen0.png"
+   Scale 0.5 0.5 0.5
+   ZOffset 0
+   FrameIndex KEEN A 0 1
+}
+
+Model CommanderKeen
+{
+   Path "models/Monsters/Keen"
+   Model 1 "Keen.md2"
+   Skin 1 "Keen1.png"
+   Scale 0.5 0.5 0.5
+   ZOffset 0
+   FrameIndex KEEN B 1 2
+   FrameIndex KEEN C 1 3
+   FrameIndex KEEN D 1 4
+   FrameIndex KEEN E 1 5
+   FrameIndex KEEN M 1 1
+}
+
+Model CommanderKeen
+{
+   Path "models/Monsters/Keen"
+   Model 2 "Keen_Meat.md2"
+   Skin 2 "Keen_Meat.png"
+   Model 3 "Keen.md2"
+   Skin 3 "Keen2.png"
+   Scale 0.5 0.5 0.5
+   ZOffset 0
+   FrameIndex KEEN F 2 6	FrameIndex KEEN F 3 6
+   FrameIndex KEEN G 2 7	FrameIndex KEEN G 3 7
+   FrameIndex KEEN H 2 8	FrameIndex KEEN H 3 8
+   FrameIndex KEEN I 2 9	FrameIndex KEEN I 3 9
+   FrameIndex KEEN J 2 10	FrameIndex KEEN J 3 10
+   FrameIndex KEEN K 2 11	FrameIndex KEEN K 3 11
+   FrameIndex KEEN L 2 10	FrameIndex KEEN L 3 10
+}
+/*
+// --------------- HUD --------------- //
+
+Model Pistol
+{
+   Path "models/HUD/Pistol"
+   Model 0 "Pistol.md2"
+   Skin 0 "hud_pistol.pcx"
+   Model 1 "Pistol-Hand.md2"
+   Skin 1 "hud_pistol_hand.pcx"
+   Scale 1.0 1.0 1.0
+   ZOffset -30
+   FrameIndex PISG A 0 0	FrameIndex PISG A 1 0
+   FrameIndex PISG B 0 1	FrameIndex PISG B 1 1
+   FrameIndex PISG C 0 2	FrameIndex PISG C 1 2
+   FrameIndex PISG D 0 3	FrameIndex PISG D 1 3
+   FrameIndex PISG E 0 4	FrameIndex PISG E 1 4
+}
+Model Pistol
+{
+   Path "models/HUD/Pistol"
+   Model 0 "Pistol-MF.MD2"
+   Skin 0 "hud_pistol_MF0.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -30
+   FrameIndex PISF A 0 0
+}
+
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun.md2"
+   Skin 0 "hud_shotgun.png"
+   Scale -1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTG A 0 0
+   FrameIndex SHTG B 0 2
+   FrameIndex SHTG C 0 3
+   FrameIndex SHTG D 0 4
+}
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun_MF.md2"
+   Skin 0 "hud_shotgun_MF0.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTF A 0 0
+}
+Model Shotgun
+{
+   Path "models/HUD/Shotgun"
+   Model 0 "Shotgun_MF.md2"
+   Skin 0 "hud_shotgun_MF1.png"
+   Scale 1.0 1.0 1.0
+   ZOffset -4
+   FrameIndex SHTF B 0 0
+}
+
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_barrel.md2"
+   Skin 0 "HUD_SSG.pcx"
+   Model 1 "hud_ssg_hold.md2"
+   Skin 1 "HUD_SSG.pcx"
+   Model 2 "hud_ssg_stock.md2"
+   Skin 2 "HUD_SSG.pcx"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 A 0 0	FrameIndex SHT2 A 1 0	FrameIndex SHT2 A 2 0	FrameIndex SHT2 A 3 0
+   FrameIndex SHT2 B 0 1	FrameIndex SHT2 B 1 1	FrameIndex SHT2 B 2 1	FrameIndex SHT2 B 3 1
+   FrameIndex SHT2 C 0 2	FrameIndex SHT2 C 1 2	FrameIndex SHT2 C 2 2	FrameIndex SHT2 C 3 2
+   FrameIndex SHT2 H 0 7	FrameIndex SHT2 H 1 7	FrameIndex SHT2 H 2 7	FrameIndex SHT2 H 3 7
+}
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_barrel.md2"
+   Skin 0 "HUD_SSG.pcx"
+   Model 1 "hud_ssg_hold.md2"
+   Skin 1 "HUD_SSG.pcx"
+   Model 2 "hud_ssg_stock.md2"
+   Skin 2 "HUD_SSG.pcx"
+   Model 3 "hud_ssg_put.md2"
+   Skin 3 "HUD_SSG.pcx"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 D 0 3	FrameIndex SHT2 D 1 3	FrameIndex SHT2 D 2 3	FrameIndex SHT2 D 3 0
+   FrameIndex SHT2 E 0 4	FrameIndex SHT2 E 1 4	FrameIndex SHT2 E 2 4	FrameIndex SHT2 E 3 1
+   FrameIndex SHT2 F 0 5	FrameIndex SHT2 F 1 5	FrameIndex SHT2 F 2 5	FrameIndex SHT2 F 3 2
+   FrameIndex SHT2 G 0 6	FrameIndex SHT2 G 1 6	FrameIndex SHT2 G 2 6	FrameIndex SHT2 G 3 3
+}
+/*
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_MF.md2"
+   Skin 0 "hud_ssg_MF1.png"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 I 0 0
+}
+Model SuperShotgun
+{
+   Path "models/HUD/SuperShotgun"
+   Model 0 "hud_ssg_MF.md2"
+   Skin 0 "hud_ssg_MF2.png"
+   Scale -1.0 1.0 1.0
+   ZOffset -20
+   FrameIndex SHT2 J 0 0
+}
+*/

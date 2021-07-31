@@ -1,0 +1,35 @@
+name: jDoom Resource Pack (jDRP)
+category: resources
+provides: jDRP
+
+# Require a certain game component:
+component: game-jdoom
+
+language english (
+  version: N/A
+  summary: 3D models and special effects for jDoom
+  contact: danij@dengine.net
+  author: Daniel Swanson et al. Packed by Harry 04/04/2007
+
+  copyright: Copyright (c) 2007 Daniel Swanson
+  license: Free for non-commercial use
+  
+readme = "The jDoom Resource Pack represents many years' worth of
+work. Several people have contributed 3D models, skins and particle
+effects."
+
+  category-resources: Resource Packs
+  category-resources-jdrp-box: jDoom Resource Pack
+  category-resources-jdrp-box-effects: Effects
+  category-resources-jdrp-box-hudweapons: HUD Weapons
+  category-resources-jdrp-box-items: Items
+  category-resources-jdrp-box-powerups: Powerups
+  category-resources-jdrp-box-ammo: Ammo
+  category-resources-jdrp-box-projectiles: Projectiles
+  category-resources-jdrp-box-monsters: Monsters
+  category-resources-jdrp-box-bosses: Bosses
+  category-resources-jdrp-box-decorations: Decorations
+  category-resources-jdrp-box-worldweapons: World Weapons
+  category-resources-jdrp-box-player: Player
+  category-resources-jdrp-box-keys: Keys
+)

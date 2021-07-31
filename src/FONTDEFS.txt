@@ -1,0 +1,55 @@
+HI_RES
+{
+   0 bigred0
+   1 bigred1
+   2 bigred2
+   3 bigred3
+   4 bigred4
+   5 bigred5
+   6 bigred6
+   7 bigred7
+   8 bigred8
+   9 bigred9
+}
+
+BIGFONT
+{
+	! stcfn033
+	' stcfn039
+	0 stcfn048
+	1 stcfn049
+	2 stcfn050
+	3 stcfn051
+	4 stcfn052
+	5 stcfn053
+	6 stcfn054
+	7 stcfn055
+	8 stcfn056
+	9 stcfn057
+	A stcfn065
+	B stcfn066
+	C stcfn067
+	D stcfn068
+	E stcfn069
+	F stcfn070
+	G stcfn071
+	H stcfn072
+	I stcfn073
+	J stcfn074
+	K stcfn075
+	L stcfn076
+	M stcfn077
+	N stcfn078
+	O stcfn079
+	P stcfn080
+	Q stcfn081
+	R stcfn082
+	S stcfn083
+	T stcfn084
+	U stcfn085
+	V stcfn086
+	W stcfn087
+	X stcfn088
+	Y stcfn089
+	Z stcfn090
+}
